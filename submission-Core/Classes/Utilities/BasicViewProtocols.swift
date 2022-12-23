@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-protocol BasicViewProtocols: AnyObject {
+public protocol BasicViewProtocols: AnyObject {
     var nav: UINavigationController? {get}
     func alert(title: String, message: String)
     func alert(title: String, message: String, completion: (() -> Void)?)

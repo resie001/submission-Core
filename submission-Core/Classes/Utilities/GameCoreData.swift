@@ -89,7 +89,7 @@ public class GameCoreData {
         }
     }
     
-    func checkFavorite(id: Float) async -> (Bool) {
+    public func checkFavorite(id: Float) async -> (Bool) {
         await withCheckedContinuation { continuation in
             let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "GameCore")
             fetchRequest.predicate = NSPredicate(format: "id = %f", id)

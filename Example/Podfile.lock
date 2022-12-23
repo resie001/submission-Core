@@ -11,7 +11,7 @@ PODS:
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
   - SnapKit (5.6.0)
-  - submission-Core (1.0.0):
+  - submission-Core (1.0.2):
     - Alamofire
     - AlamofireNetworkActivityLogger
     - ObjectMapper
@@ -47,7 +47,7 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
-  submission-Core: 09cc08a95a66f5d2cb2ba428d868d1494d475a3c
+  submission-Core: 6f30dc4e0a6ce770170cd2cfaf4f948c6b36bc16
 
 PODFILE CHECKSUM: 16b67a866b1b597b9c5d4ef1edbff3dd8ef910ec
 
