@@ -43,7 +43,7 @@ SPEC CHECKSUMS:
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  submission-Core: 06a8fa1460e7d2a954c8a272df05b461bc379260
+  submission-Core: ebced56c696860a23cc70130ee0d26e8a9148ef7
 
 PODFILE CHECKSUM: 613ce866acd6bbe24f1d2afe117ed091e128b577
 
