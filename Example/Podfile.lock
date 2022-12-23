@@ -1,15 +1,49 @@
 PODS:
-  - submission-Core (1.0.0)
+  - Alamofire (5.4.4)
+  - AlamofireNetworkActivityLogger (3.4.0):
+    - Alamofire (~> 5.4.0)
+  - ObjectMapper (4.2.0)
+  - PanModal (1.2.7)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - submission-Core (1.0.0):
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - ObjectMapper
+    - PanModal
+    - RxCocoa
+    - RxSwift
 
 DEPENDENCIES:
   - submission-Core (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - ObjectMapper
+    - PanModal
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 EXTERNAL SOURCES:
   submission-Core:
     :path: "../"
 
 SPEC CHECKSUMS:
-  submission-Core: cfe9646ac3385d98624001813b5678d1b3c152e3
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  AlamofireNetworkActivityLogger: 162ab8aee00e6267a4304d7cc134e13ccfe3bcc5
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  submission-Core: 06a8fa1460e7d2a954c8a272df05b461bc379260
 
 PODFILE CHECKSUM: 613ce866acd6bbe24f1d2afe117ed091e128b577
 
