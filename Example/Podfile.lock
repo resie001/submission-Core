@@ -1,0 +1,16 @@
+PODS:
+  - submission-Core (1.0.0)
+
+DEPENDENCIES:
+  - submission-Core (from `../`)
+
+EXTERNAL SOURCES:
+  submission-Core:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  submission-Core: cfe9646ac3385d98624001813b5678d1b3c152e3
+
+PODFILE CHECKSUM: 613ce866acd6bbe24f1d2afe117ed091e128b577
+
+COCOAPODS: 1.11.3
