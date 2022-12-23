@@ -8,19 +8,19 @@
 import Foundation
 
 public struct GameModel {
-    var id: Float
-    var name: String
-    var release: String
-    var backgroundImage: String
-    var rating: Float
+    public var id: Float
+    public var name: String
+    public var release: String
+    public var backgroundImage: String
+    public var rating: Float
 }
 
 public struct GameDetailModel {
-    var id: Float
-    var name: String
-    var release: String
-    var backgroundImage: String
-    var rating: Float
-    var desc: String
-    var metacritic: Int
+    public var id: Float
+    public var name: String
+    public var release: String
+    public var backgroundImage: String
+    public var rating: Float
+    public var desc: String
+    public var metacritic: Int
 }

@@ -9,15 +9,15 @@ import Foundation
 import ObjectMapper
 
 public class BaseResponse: Mappable {
-    var next: String?
-    var isNextExist: Bool {
+    public var next: String?
+    public var isNextExist: Bool {
         if next == nil {
             return false
         }
         return true
     }
-    var previous: String?
-    var count = 0
+    public var previous: String?
+    public var count = 0
     
     public required init?(map: Map) {
         

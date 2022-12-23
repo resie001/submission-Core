@@ -9,7 +9,7 @@ import Foundation
 import ObjectMapper
 
 public class GamesResponse: BaseResponse {
-    var games: [GameResponse]?
+    public var games: [GameResponse]?
     
     override public func mapping(map: Map) {
         super.mapping(map: map)
@@ -18,14 +18,13 @@ public class GamesResponse: BaseResponse {
 }
 
 public class GameResponse: Mappable {
-    
-    var id: Float?
-    var name: String?
-    var release: String?
-    var backgroundImage: String?
-    var metacritic: Int?
-    var desc: String?
-    var rating: Float?
+    public var id: Float?
+    public var name: String?
+    public var release: String?
+    public var backgroundImage: String?
+    public var metacritic: Int?
+    public var desc: String?
+    public var rating: Float?
     
     public convenience required init?(map: Map) {
         self.init()
