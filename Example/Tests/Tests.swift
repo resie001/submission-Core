@@ -1,5 +1,4 @@
 import XCTest
-import submission-Core
 
 class Tests: XCTestCase {
     
